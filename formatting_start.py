@@ -18,5 +18,6 @@ def main():
     # %I/%H - 12/24 Hour, %M - minute, %S - second, %p - locales's AM/PM
     print(now.strftime("Current time: %I:%M:%S %p"))
     print(now.strftime("24H time: %H:%M:%S"))
+    
 if __name__ == "__main__":
     main()
